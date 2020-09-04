@@ -1,3 +1,110 @@
+*, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
 
+h2, p {
+  color: #666666;
+  margin: 0; }
+
+h2 span {
+  color: #43a5d9; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+  ul li {
+    list-style: none; }
+
+.align-right {
+  text-align: right !important; }
+
+.main-container {
+  max-width: 1920px;
+  margin: 0 auto; }
+  .main-container .middle-section {
+    padding: 50px 0 100px; }
+    .main-container .middle-section .inner-container {
+      max-width: 1177px;
+      margin: 0 auto; }
+    .main-container .middle-section .section-heading {
+      position: relative;
+      text-align: center; }
+      .main-container .middle-section .section-heading h2 {
+        font-size: 36px;
+        font-weight: 600; }
+    .main-container .middle-section p {
+      color: #666666;
+      line-height: 48px;
+      font-size: 24px;
+      text-align: center; }
+    .main-container .middle-section .have-border {
+      margin: 0 0 58px;
+      padding: 62px 40px;
+      border: 10px solid #e1e1e1; }
+      .main-container .middle-section .have-border p {
+        text-align: left;
+        margin: 0 0 70px; }
+      .main-container .middle-section .have-border p.align-right {
+        margin: 0; }
+  .main-container .surprising-effect-section .section-heading {
+    margin: 0 0 75px; }
+    .main-container .surprising-effect-section .section-heading h2 {
+      font-size: 28px; }
+  .main-container .nmn-effects-section {
+    background-color: #efefef; }
+    .main-container .nmn-effects-section .section-heading {
+      margin: 0 0 75px; }
+      .main-container .nmn-effects-section .section-heading h2 {
+        font-size: 28px; }
+  .main-container .patients-impression-section {
+    background-color: #f6f6f6; }
+    .main-container .patients-impression-section .section-heading {
+      margin: 0 0 40px; }
+      .main-container .patients-impression-section .section-heading h2 {
+        font-size: 28px; }
+    .main-container .patients-impression-section p {
+      margin: 0 0 125px; }
+    .main-container .patients-impression-section .reviews-section {
+      display: grid;
+      grid-gap: 30px;
+      grid-template-columns: 268px 268px 268px 268px;
+      justify-content: center; }
+      .main-container .patients-impression-section .reviews-section .single-review {
+        border-radius: 12px;
+        background-color: #fff;
+        display: grid;
+        grid-gap: 15px;
+        grid-template-rows: 240px auto auto; }
+        .main-container .patients-impression-section .reviews-section .single-review .img-icon {
+          background-color: #e6e6e6;
+          display: grid;
+          align-items: end;
+          justify-items: center;
+          border-radius: 12px 12px 0 0; }
+        .main-container .patients-impression-section .reviews-section .single-review p {
+          padding: 0 15px;
+          font-size: 20px;
+          line-height: 30px;
+          margin: 0;
+          min-height: 50px; }
+        .main-container .patients-impression-section .reviews-section .single-review .date-time {
+          margin: 0 0 20px;
+          padding: 0 10px;
+          display: grid;
+          grid-template-columns: 1fr 2.4fr;
+          grid-gap: 16px; }
+          .main-container .patients-impression-section .reviews-section .single-review .date-time .r-count {
+            font-size: 60px;
+            line-height: 30px;
+            color: #43a5d9; }
+          .main-container .patients-impression-section .reviews-section .single-review .date-time .time {
+            text-align: left;
+            font-size: 20px;
+            line-height: 30px; }
+          .main-container .patients-impression-section .reviews-section .single-review .date-time p {
+            padding: 0;
+            min-height: initial; }
 
 /*# sourceMappingURL=style.css.map */

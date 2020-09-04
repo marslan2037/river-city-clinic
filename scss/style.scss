@@ -1,0 +1,149 @@
+*, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h2, p {
+    color: #666666;
+    margin: 0;
+}
+h2 {
+    span {
+        color: #43a5d9;
+    }
+}
+ul {
+    padding: 0;
+    margin: 0;
+    li {
+        list-style: none;
+    }
+}
+.align-right {
+    text-align: right !important;
+}
+
+.main-container {
+    max-width: 1920px;
+    margin: 0 auto;
+    
+    .middle-section {
+        padding: 50px 0 100px;
+        .inner-container {
+            max-width: 1177px;
+            margin: 0 auto;
+        }
+        .section-heading {
+            position: relative;
+            text-align: center;
+            h2 {
+                font-size: 36px;
+                font-weight: 600;
+            }
+            span.border-bottom {
+        
+            }
+        }
+        p {
+            color: #666666;
+            line-height: 48px;
+            font-size: 24px;
+            text-align: center;
+        }
+        .have-border {
+            margin: 0 0 58px;
+            padding: 62px 40px;
+            border: 10px solid #e1e1e1;
+            p {
+                text-align: left;
+                margin: 0 0 70px;
+            }
+            p.align-right {
+                margin: 0;
+            }
+        }
+    }
+
+    .surprising-effect-section {
+        .section-heading {
+            margin: 0 0 75px;
+            h2 {
+                font-size: 28px;
+            }
+        }
+    }
+
+    .nmn-effects-section {
+        background-color: #efefef;
+        .section-heading {
+            margin: 0 0 75px;
+            h2 {
+                font-size: 28px;
+            }
+        }
+    }
+
+    .patients-impression-section {
+        background-color: #f6f6f6;
+        .section-heading {
+            margin: 0 0 40px;
+            h2 {
+                font-size: 28px;
+            }
+        }
+        p {
+            margin: 0 0 125px;
+        }
+
+        .reviews-section {
+            display: grid;
+            grid-gap: 30px;
+            grid-template-columns: 268px 268px 268px 268px;
+            justify-content: center;
+            .single-review {
+                border-radius: 12px;
+                background-color: #fff;;
+                display: grid;
+                grid-gap: 15px;
+                grid-template-rows: 240px auto auto;
+                .img-icon {
+                    background-color: #e6e6e6;
+                    display: grid;
+                    align-items: end;
+                    justify-items: center;
+                    border-radius: 12px 12px 0 0;
+                }
+                p {
+                    padding: 0 15px;
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin: 0;
+                    min-height: 50px;
+                }
+                .date-time {
+                    margin: 0 0 20px;
+                    padding: 0 10px;
+                    display: grid;
+                    grid-template-columns: 1fr 2.4fr;
+                    grid-gap: 16px;
+                    .r-count {
+                        font-size: 60px;
+                        line-height: 30px;
+                        color: #43a5d9;
+                    }
+                    .time {
+                        text-align: left;
+                        font-size: 20px;
+                        line-height: 30px;
+                    }
+                    p {
+                        padding: 0;
+                        min-height: initial;
+                    }
+                }
+            }
+        }
+    }
+}
