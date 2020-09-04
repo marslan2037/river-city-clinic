@@ -59,6 +59,7 @@ ul {
       .main-container .nmn-effects-section .section-heading h2 {
         font-size: 28px; }
   .main-container .patients-impression-section {
+    padding: 120px 0;
     background-color: #f6f6f6; }
     .main-container .patients-impression-section .section-heading {
       margin: 0 0 40px; }
@@ -98,7 +99,8 @@ ul {
           .main-container .patients-impression-section .reviews-section .single-review .date-time .r-count {
             font-size: 60px;
             line-height: 30px;
-            color: #43a5d9; }
+            color: #43a5d9;
+            font-weight: 600; }
           .main-container .patients-impression-section .reviews-section .single-review .date-time .time {
             text-align: left;
             font-size: 20px;
@@ -106,5 +108,13 @@ ul {
           .main-container .patients-impression-section .reviews-section .single-review .date-time p {
             padding: 0;
             min-height: initial; }
+  .main-container .building-section {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1.14fr;
+    grid-template-rows: 822px; }
+    .main-container .building-section img {
+      width: 100%;
+      height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
