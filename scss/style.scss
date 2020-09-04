@@ -159,4 +159,44 @@ ul {
             height: 100%;
         }
     }
+
+    .team-section {
+        padding: 68px 0;
+        .inner-container {
+            max-width: 972px;
+            margin: 0 auto;
+        }
+        .members-section {
+            display: grid;
+            grid-gap: 30px;
+            .single-member {
+                display: grid;
+                grid-template-columns: 300px auto;
+                grid-gap: 0 130px;
+                padding: 70px;
+                border: 2px solid #43a5d9;
+                border-radius: 16px;
+                ul {
+                    li {
+                        font-size: 18px;
+                        line-height: 36px;
+                        color: #666666;
+                    }
+                    li.bold-text {
+                        font-weight: 600;
+                    }
+                }
+                p {
+                    text-align: left;
+                    width: 265px;
+                    font-size: 18px;
+                    line-height: 36px;
+                    color: #666666;
+                    span {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
 }
