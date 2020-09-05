@@ -28,6 +28,24 @@ ul {
 .main-container {
     max-width: 1920px;
     margin: 0 auto;
+
+    header {
+        padding: 0 16px;
+        height: 150px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 2fr;
+        .header-buttons {
+            display: grid;
+            grid-gap: 30px;
+            grid-template-columns: repeat(4, 1fr);
+            button {
+                background: none;
+                border: none;
+                outline: none;
+            }
+        }
+    }
     
     .middle-section {
         padding: 50px 0 100px;
@@ -71,6 +89,43 @@ ul {
             margin: 0 0 75px;
             h2 {
                 font-size: 28px;
+            }
+        }
+    }
+
+    .body-features-section {
+        background: url(../images/people-img.png) no-repeat;
+        padding: 180px 0 80px;
+        background-position: bottom left; 
+        .section-heading {
+            margin: 0 0 100px;
+        }      
+        .inner-container {
+            max-width: 1300px;
+        }
+        .bfs-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 50px;
+
+            img {
+                grid-column: 1/3;
+                justify-self: center;
+            }
+        }
+        ul {
+            li {
+                list-style-type: circle;
+                p {
+                    text-align: left;
+                    font-size: 24px;
+                    line-height: 48px;
+                    color: #777777;
+                }
+                p.p-heading {
+                    font-weight: 600;
+                    color: #666666;
+                }
             }
         }
     }
@@ -197,6 +252,48 @@ ul {
                     }
                 }
             }
+        }
+    }
+
+    .faq-section {
+        padding: 70px 0;
+        background-color: #f6f6f6;
+        .inner-container {
+            max-width: 1330px;
+            margin: 0 auto;
+        }
+        .all-questions-section {
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 75px;
+            .single-question {
+                margin: 0 0 50px;
+                h2, p {
+                    font-size: 24px;
+                    line-height: 48px;
+                    text-align: left;
+                }
+                h2 {
+                    color: #666666;
+                }
+                p {
+                    color: #777777;
+                }
+            }
+        }
+    }
+
+    footer {
+        height: 113px;
+        background-color: #fff;
+        padding: 0 15px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 2fr;
+        p {
+            font-size: 16px;
+            color: #777777;
+            justify-self: end;
         }
     }
 }

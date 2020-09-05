@@ -23,6 +23,20 @@ ul {
 .main-container {
   max-width: 1920px;
   margin: 0 auto; }
+  .main-container header {
+    padding: 0 16px;
+    height: 150px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr; }
+    .main-container header .header-buttons {
+      display: grid;
+      grid-gap: 30px;
+      grid-template-columns: repeat(4, 1fr); }
+      .main-container header .header-buttons button {
+        background: none;
+        border: none;
+        outline: none; }
   .main-container .middle-section {
     padding: 50px 0 100px; }
     .main-container .middle-section .inner-container {
@@ -52,6 +66,31 @@ ul {
     margin: 0 0 75px; }
     .main-container .surprising-effect-section .section-heading h2 {
       font-size: 28px; }
+  .main-container .body-features-section {
+    background: url(../images/people-img.png) no-repeat;
+    padding: 180px 0 80px;
+    background-position: bottom left; }
+    .main-container .body-features-section .section-heading {
+      margin: 0 0 100px; }
+    .main-container .body-features-section .inner-container {
+      max-width: 1300px; }
+    .main-container .body-features-section .bfs-content {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 50px; }
+      .main-container .body-features-section .bfs-content img {
+        grid-column: 1/3;
+        justify-self: center; }
+    .main-container .body-features-section ul li {
+      list-style-type: circle; }
+      .main-container .body-features-section ul li p {
+        text-align: left;
+        font-size: 24px;
+        line-height: 48px;
+        color: #777777; }
+      .main-container .body-features-section ul li p.p-heading {
+        font-weight: 600;
+        color: #666666; }
   .main-container .nmn-effects-section {
     background-color: #efefef; }
     .main-container .nmn-effects-section .section-heading {
@@ -145,5 +184,36 @@ ul {
           color: #666666; }
           .main-container .team-section .members-section .single-member p span {
             font-size: 30px; }
+  .main-container .faq-section {
+    padding: 70px 0;
+    background-color: #f6f6f6; }
+    .main-container .faq-section .inner-container {
+      max-width: 1330px;
+      margin: 0 auto; }
+    .main-container .faq-section .all-questions-section {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 75px; }
+      .main-container .faq-section .all-questions-section .single-question {
+        margin: 0 0 50px; }
+        .main-container .faq-section .all-questions-section .single-question h2, .main-container .faq-section .all-questions-section .single-question p {
+          font-size: 24px;
+          line-height: 48px;
+          text-align: left; }
+        .main-container .faq-section .all-questions-section .single-question h2 {
+          color: #666666; }
+        .main-container .faq-section .all-questions-section .single-question p {
+          color: #777777; }
+  .main-container footer {
+    height: 113px;
+    background-color: #fff;
+    padding: 0 15px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr; }
+    .main-container footer p {
+      font-size: 16px;
+      color: #777777;
+      justify-self: end; }
 
 /*# sourceMappingURL=style.css.map */
