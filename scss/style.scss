@@ -40,6 +40,7 @@ ul {
             grid-gap: 30px;
             grid-template-columns: repeat(4, 1fr);
             button {
+                cursor: pointer;
                 background: none;
                 border: none;
                 outline: none;
@@ -201,6 +202,124 @@ ul {
                     }
                 }
             }
+        }
+    }
+
+    .section-with-img {
+        padding: 100px 0;
+        .section-heading {
+            margin: 0 0 48px;
+        }
+        p {
+            margin: 0 0 100px;
+        }
+        .chart-img {
+            text-align: center;
+            img {
+                margin: 0 0 50px;
+            }
+            p {
+                margin: 0;
+            }
+        }
+    }
+    .section-with-img.aging-section {
+        background: url(../images/aging-section-bg.png) no-repeat;
+        background-size: cover;
+    }
+
+
+    .longevity-section {
+        background: url(../images/longivity-bg.png) no-repeat;
+        background-position: bottom right;
+        background-color: #f6f6f6;
+        p {
+            margin: 0 0 10px;
+        }
+        .chart-img {
+            text-align: center;
+            img {
+                margin: 0;
+            }
+        }
+    }
+
+    .middle-logo-section {
+        padding: 150px 0;
+        h2 {
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 60px;
+        }    
+        .section-heading {
+            margin: 0 0 80px;
+        }
+        .middle-logo {
+            text-align: center;
+        }
+    }
+
+    .reservation-section {
+        background-color: #43a5d9;
+        .inner-container {
+            max-width: 850px;
+        }
+        h2 {
+            color: #fff;
+        }
+        .section-heading {
+            margin: 0 0 45px;
+        }
+        .buttons-list {
+            display: grid;
+            grid-gap: 30px;
+            grid-template-columns: 1fr 1fr;
+            button {
+                background: none;
+                border: none;
+                outline: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .map-address-section {
+        padding: 0;
+        display: grid;
+        grid-template-columns: 900px 1fr;
+        grid-template-rows: 666px;
+        h2 {
+            text-align: center;
+            font-size: 48px;
+            color: #43a5d9;
+            line-height: 48px;
+            margin: 0 0 55px;
+        }
+        p {
+            margin: 0;
+            text-align: left;
+            font-size: 24px;
+            line-height: 42px;
+        }
+        p.bold-text {
+            font-weight: bold;
+            margin: 0 0 18px;
+            font-size: 30px;
+        }
+        .contact-info {
+            padding: 35px 110px;
+        }
+        ul {
+            li {
+                font-size: 20px;
+                line-height: 48px;
+                img {
+                    margin-right: 25px;
+                }
+            }
+        }
+        .map-box {
+            background: #f6f6f6;
         }
     }
 

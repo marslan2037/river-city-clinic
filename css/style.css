@@ -34,6 +34,7 @@ ul {
       grid-gap: 30px;
       grid-template-columns: repeat(4, 1fr); }
       .main-container header .header-buttons button {
+        cursor: pointer;
         background: none;
         border: none;
         outline: none; }
@@ -147,6 +148,87 @@ ul {
           .main-container .patients-impression-section .reviews-section .single-review .date-time p {
             padding: 0;
             min-height: initial; }
+  .main-container .section-with-img {
+    padding: 100px 0; }
+    .main-container .section-with-img .section-heading {
+      margin: 0 0 48px; }
+    .main-container .section-with-img p {
+      margin: 0 0 100px; }
+    .main-container .section-with-img .chart-img {
+      text-align: center; }
+      .main-container .section-with-img .chart-img img {
+        margin: 0 0 50px; }
+      .main-container .section-with-img .chart-img p {
+        margin: 0; }
+  .main-container .section-with-img.aging-section {
+    background: url(../images/aging-section-bg.png) no-repeat;
+    background-size: cover; }
+  .main-container .longevity-section {
+    background: url(../images/longivity-bg.png) no-repeat;
+    background-position: bottom right;
+    background-color: #f6f6f6; }
+    .main-container .longevity-section p {
+      margin: 0 0 10px; }
+    .main-container .longevity-section .chart-img {
+      text-align: center; }
+      .main-container .longevity-section .chart-img img {
+        margin: 0; }
+  .main-container .middle-logo-section {
+    padding: 150px 0; }
+    .main-container .middle-logo-section h2 {
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 60px; }
+    .main-container .middle-logo-section .section-heading {
+      margin: 0 0 80px; }
+    .main-container .middle-logo-section .middle-logo {
+      text-align: center; }
+  .main-container .reservation-section {
+    background-color: #43a5d9; }
+    .main-container .reservation-section .inner-container {
+      max-width: 850px; }
+    .main-container .reservation-section h2 {
+      color: #fff; }
+    .main-container .reservation-section .section-heading {
+      margin: 0 0 45px; }
+    .main-container .reservation-section .buttons-list {
+      display: grid;
+      grid-gap: 30px;
+      grid-template-columns: 1fr 1fr; }
+      .main-container .reservation-section .buttons-list button {
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer; }
+  .main-container .map-address-section {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 900px 1fr;
+    grid-template-rows: 666px; }
+    .main-container .map-address-section h2 {
+      text-align: center;
+      font-size: 48px;
+      color: #43a5d9;
+      line-height: 48px;
+      margin: 0 0 55px; }
+    .main-container .map-address-section p {
+      margin: 0;
+      text-align: left;
+      font-size: 24px;
+      line-height: 42px; }
+    .main-container .map-address-section p.bold-text {
+      font-weight: bold;
+      margin: 0 0 18px;
+      font-size: 30px; }
+    .main-container .map-address-section .contact-info {
+      padding: 35px 110px; }
+    .main-container .map-address-section ul li {
+      font-size: 20px;
+      line-height: 48px; }
+      .main-container .map-address-section ul li img {
+        margin-right: 25px; }
+    .main-container .map-address-section .map-box {
+      background: #f6f6f6; }
   .main-container .building-section {
     padding: 0;
     display: grid;
