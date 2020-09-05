@@ -63,10 +63,33 @@ ul {
         margin: 0 0 70px; }
       .main-container .middle-section .have-border p.align-right {
         margin: 0; }
-  .main-container .surprising-effect-section .section-heading {
-    margin: 0 0 75px; }
-    .main-container .surprising-effect-section .section-heading h2 {
-      font-size: 28px; }
+  .main-container .surprising-effect-section {
+    background: url(../images/rat-bg.png) no-repeat;
+    background-position: bottom left;
+    padding: 150px 0; }
+    .main-container .surprising-effect-section .section-heading {
+      margin: 0 0 75px; }
+      .main-container .surprising-effect-section .section-heading h2 {
+        font-size: 28px; }
+    .main-container .surprising-effect-section .chart-data {
+      display: grid;
+      grid-template-columns: 1fr 520px;
+      grid-gap: 50px;
+      align-items: center;
+      margin: 0 0 35px; }
+      .main-container .surprising-effect-section .chart-data .detail-text {
+        padding: 20px 40px;
+        background: #43a5d9;
+        height: 276px;
+        border-radius: 20px;
+        font-size: 36px;
+        line-height: 60px;
+        color: #fff;
+        box-shadow: -20px 30px 35px #cce7f5; }
+    .main-container .surprising-effect-section p.chart-text {
+      max-width: 630px;
+      font-size: 18px;
+      line-height: 30px; }
   .main-container .body-features-section {
     background: url(../images/people-img.png) no-repeat;
     padding: 180px 0 80px;
@@ -266,6 +289,86 @@ ul {
           color: #666666; }
           .main-container .team-section .members-section .single-member p span {
             font-size: 30px; }
+  .main-container .vegitables-section {
+    background: url(../images/veg-bg.png) no-repeat;
+    background-position: bottom right;
+    padding: 50px 0;
+    background-color: #f6f6f6; }
+    .main-container .vegitables-section p {
+      color: #666666;
+      font-size: 30px;
+      line-height: 48px; }
+    .main-container .vegitables-section p.small-heading-text {
+      font-size: 14px; }
+    .main-container .vegitables-section .arrow-down {
+      margin: 0 0 10px;
+      text-align: center; }
+    .main-container .vegitables-section .veg-grid-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 35px;
+      margin: 0 0 40px; }
+      .main-container .vegitables-section .veg-grid-section .single-item {
+        display: grid;
+        justify-items: center; }
+        .main-container .vegitables-section .veg-grid-section .single-item p, .main-container .vegitables-section .veg-grid-section .single-item span {
+          font-size: 24px;
+          line-height: 48px;
+          color: #666666; }
+        .main-container .vegitables-section .veg-grid-section .single-item p {
+          font-weight: bold; }
+  .main-container .nmn-therapy-section {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 770px 1fr;
+    grid-template-rows: 700px; }
+    .main-container .nmn-therapy-section .therapy-detail {
+      padding: 0 120px;
+      background: #eaf3fa; }
+    .main-container .nmn-therapy-section .therapy-img img {
+      width: 100%;
+      height: 100%; }
+    .main-container .nmn-therapy-section h2 {
+      color: white;
+      font-size: 80px;
+      line-height: 80px;
+      margin: 0 0 100px; }
+    .main-container .nmn-therapy-section .grid-box {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      justify-items: center; }
+    .main-container .nmn-therapy-section .t-white-box {
+      width: 500px;
+      padding: 12px;
+      background: #fff; }
+      .main-container .nmn-therapy-section .t-white-box p {
+        font-size: 18px;
+        line-height: 30px;
+        color: #777777; }
+      .main-container .nmn-therapy-section .t-white-box span {
+        color: #43a5d9;
+        font-size: 18px; }
+      .main-container .nmn-therapy-section .t-white-box h2 {
+        color: #43a5d9;
+        font-size: 22px;
+        line-height: 22px;
+        margin: 0; }
+      .main-container .nmn-therapy-section .t-white-box h3 {
+        font-size: 12px;
+        color: #777777;
+        margin: 0 0 15px; }
+      .main-container .nmn-therapy-section .t-white-box p.price {
+        font-weight: bold;
+        color: #43a5d9;
+        font-size: 60px;
+        line-height: 48px; }
+        .main-container .nmn-therapy-section .t-white-box p.price span {
+          font-weight: normal;
+          font-size: 24px; }
+    .main-container .nmn-therapy-section .t-white-box.margin-45 {
+      margin: 0 0 45px; }
+    .main-container .nmn-therapy-section .t-white-box.margin-55 {
+      margin: 0 0 55px; }
   .main-container .faq-section {
     padding: 70px 0;
     background-color: #f6f6f6; }
