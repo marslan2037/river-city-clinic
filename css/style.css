@@ -16,7 +16,7 @@ h3.have-white-bg {
   position: relative;
   z-index: 10;
   display: inline-block; }
-  h3.have-white-bg span {
+  h3.have-white-bg span.white-bar {
     position: absolute;
     width: 100%;
     background-color: #fff;
@@ -68,35 +68,57 @@ ul {
       transform: translate(-50%, -50%);
       width: 100%;
       top: 50%; }
-      .main-container .hero-banner-section .banner-content .left-content p {
-        font-size: 30px;
-        line-height: 48px;
-        color: #666666;
-        padding-bottom: 18px;
-        border-bottom: 2px solid #fff;
-        margin: 0 0 25px; }
-      .main-container .hero-banner-section .banner-content .left-content .big-text {
+      .main-container .hero-banner-section .banner-content .left-content {
         position: relative;
-        margin: 0 0 64px; }
-        .main-container .hero-banner-section .banner-content .left-content .big-text h3 {
-          color: #666666;
-          font-size: 104px;
-          line-height: 75px;
-          display: inline-block; }
-        .main-container .hero-banner-section .banner-content .left-content .big-text p {
-          border: none;
-          position: absolute;
-          margin: 0 0 0 15px;
+        top: 62px; }
+        .main-container .hero-banner-section .banner-content .left-content p {
           font-size: 30px;
-          line-height: 41px;
-          padding: 0;
-          display: inline-block; }
-        .main-container .hero-banner-section .banner-content .left-content .big-text p.bottom-zero {
-          bottom: 0;
-          margin: 0;
-          letter-spacing: -7px; }
+          line-height: 48px;
+          color: #666666;
+          padding-bottom: 18px;
+          border-bottom: 2px solid #fff;
+          margin: 0 0 25px; }
+        .main-container .hero-banner-section .banner-content .left-content .big-text {
+          position: relative;
+          margin: 0 0 64px; }
+          .main-container .hero-banner-section .banner-content .left-content .big-text h3 {
+            color: #666666;
+            font-size: 104px;
+            line-height: 75px;
+            display: inline-block; }
+          .main-container .hero-banner-section .banner-content .left-content .big-text p {
+            border: none;
+            position: absolute;
+            margin: 0 0 0 15px;
+            font-size: 30px;
+            line-height: 41px;
+            padding: 0;
+            display: inline-block; }
+          .main-container .hero-banner-section .banner-content .left-content .big-text p.bottom-zero {
+            bottom: 0;
+            margin: 0;
+            letter-spacing: -7px; }
+        .main-container .hero-banner-section .banner-content .left-content button {
+          border: none;
+          background: none;
+          outline: none;
+          width: 479px;
+          height: 80px;
+          color: #fff;
+          font-size: 36px;
+          position: relative;
+          cursor: pointer;
+          border-radius: 50px;
+          box-shadow: 8px 8px 30px #a7cee4;
+          background-image: linear-gradient(-90deg, #43a5d9, #5fc1c7); }
+          .main-container .hero-banner-section .banner-content .left-content button img {
+            position: absolute;
+            right: 34px;
+            top: 50%;
+            transform: translate(0, -50%); }
       .main-container .hero-banner-section .banner-content .right-content .have-bracket {
-        position: relative; }
+        position: relative;
+        margin: 0 0 25px; }
         .main-container .hero-banner-section .banner-content .right-content .have-bracket span.bracket-bg {
           width: 13px;
           height: 96px;
@@ -111,11 +133,28 @@ ul {
       .main-container .hero-banner-section .banner-content .right-content h3 {
         color: #666666;
         font-size: 100px;
-        line-height: 207px; }
+        line-height: 100px; }
         .main-container .hero-banner-section .banner-content .right-content h3 span {
           font-size: 54px;
           line-height: 38px; }
+      .main-container .hero-banner-section .banner-content .right-content .price-data {
+        margin: 0 0 22px; }
+        .main-container .hero-banner-section .banner-content .right-content .price-data h3.have-white-bg {
+          font-size: 99px;
+          line-height: 99px;
+          color: #43a5d9; }
+          .main-container .hero-banner-section .banner-content .right-content .price-data h3.have-white-bg span.white-bar {
+            margin: 0;
+            bottom: 10px; }
+        .main-container .hero-banner-section .banner-content .right-content .price-data span {
+          margin: 0 0 0 8px;
+          font-size: 27px;
+          color: #666666; }
+        .main-container .hero-banner-section .banner-content .right-content .price-data span.small-text {
+          margin: 0;
+          font-size: 14px; }
   .main-container .middle-section {
+    position: relative;
     padding: 50px 0 100px; }
     .main-container .middle-section .inner-container {
       max-width: 1195px;
@@ -379,7 +418,11 @@ ul {
       padding: 35px 110px; }
     .main-container .map-address-section ul li {
       font-size: 20px;
-      line-height: 48px; }
+      line-height: 48px;
+      display: grid;
+      grid-template-columns: 25px auto;
+      grid-gap: 28px;
+      align-items: center; }
       .main-container .map-address-section ul li img {
         margin-right: 25px; }
     .main-container .map-address-section .map-box {
