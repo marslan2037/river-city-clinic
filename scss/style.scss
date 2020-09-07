@@ -280,6 +280,9 @@ ul {
     .middle-section {
         position: relative;
         padding: 65px 0 100px;
+        @media (min-width: 320px) and (max-width: 1023px) {
+            padding: 20px;
+        }
         @media (min-width: 1024px) and (max-width: 1280px) {
             padding: 60px 50px;
         }
@@ -293,6 +296,9 @@ ul {
             h2 {
                 font-size: 36px;
                 font-weight: 600;
+                @media (min-width: 320px) and (max-width: 1023px) {
+                    font-size: 28px;
+                }
                 @media (min-width: 1024px) and (max-width: 1280px) {
                     font-size: 32px;
                 }
@@ -710,11 +716,21 @@ ul {
         }
         .section-heading {
             margin: 0 0 45px;
+            @media (min-width: 320px) and (max-width: 1023px) {
+                margin: 0 0 30px;
+            }
         }
         .buttons-list {
             display: grid;
             grid-gap: 30px;
             grid-template-columns: 1fr 1fr;
+            @media (min-width: 320px) and (max-width: 767px) {
+                grid-template-columns: 1fr;
+            }
+            @media (min-width: 768px) and (max-width: 1023px) {
+                grid-template-columns: 280px 280px;
+                justify-content: center;
+            }
             @media (min-width: 1024px) and (max-width: 1280px) {
                 grid-template-columns: 315px 315px;
                 justify-content: center;
@@ -725,6 +741,9 @@ ul {
                 outline: none;
                 cursor: pointer;
                 img {
+                    @media (min-width: 320px) and (max-width: 1023px) {
+                        width: 280px;
+                    }
                     @media (min-width: 1024px) and (max-width: 1280px) {
                         width: 100%;
                     }
@@ -810,6 +829,13 @@ ul {
         display: grid;
         grid-template-columns: 1fr 1.14fr;
         grid-template-rows: 822px;
+        @media (min-width: 320px) and (max-width: 480px) {
+            grid-template-columns: 1fr;
+            grid-template-rows: 280px 280px;
+        }
+        @media (min-width: 481px) and (max-width: 1023px) {
+            grid-template-rows: 380px;
+        }
         @media (min-width: 1024px) and (max-width: 1280px) {
             grid-template-rows: 600px;
         }
@@ -822,6 +848,9 @@ ul {
     .team-section {
         padding: 68px 0;
         background: #f6f6f6;
+        @media (min-width: 320px) and (max-width: 1023px) {
+            padding: 20px;
+        }
         .inner-container {
             max-width: 970px;
             margin: 0 auto;
@@ -837,6 +866,26 @@ ul {
                 padding: 70px;
                 border: 2px solid #43a5d9;
                 border-radius: 16px;
+                @media (min-width: 320px) and (max-width: 767px) {
+                    grid-template-columns: 1fr;
+                    grid-gap: 25px;
+                    padding: 20px;
+                }
+                @media (min-width: 768px) and (max-width: 1023px) {
+                    grid-gap: 25px;
+                    padding: 20px;
+                }
+                .img {
+                    @media (min-width: 320px) and (max-width: 1023px) {
+                        text-align: center;
+                    }
+                    img {
+                        @media (min-width: 320px) and (max-width: 1023px) {
+                            width: 100%;
+                            max-width: 350px;
+                        }
+                    }
+                }
                 ul {
                     li {
                         font-size: 18px;
@@ -853,6 +902,9 @@ ul {
                     font-size: 18px;
                     line-height: 36px;
                     color: #666666;
+                    @media (min-width: 320px) and (max-width: 1023px) {
+                        width: 100%;
+                    }
                     span {
                         font-size: 30px;
                     }
@@ -995,6 +1047,9 @@ ul {
     .faq-section {
         padding: 70px 0;
         background-color: #f6f6f6;
+        @media (min-width: 320px) and (max-width: 1023px) {
+            padding: 20px;
+        }
         @media (min-width: 1024px) and (max-width: 1280px) {
             padding: 60px;
         }
@@ -1006,12 +1061,22 @@ ul {
             background-color: #fff;
             border-radius: 12px;
             padding: 75px;
+            @media (min-width: 320px) and (max-width: 1023px) {
+                padding: 20px;
+            }
             .single-question {
                 margin: 0 0 50px;
+                @media (min-width: 320px) and (max-width: 1023px) {
+                    margin: 0 0 25px;
+                }
                 h2, p {
                     font-size: 24px;
                     line-height: 48px;
                     text-align: left;
+                    @media (min-width: 320px) and (max-width: 1023px) {
+                        font-size: 18px;
+                        line-height: 36px;
+                    }
                 }
                 h2 {
                     color: #666666;
@@ -1030,10 +1095,27 @@ ul {
         display: grid;
         align-items: center;
         grid-template-columns: 1fr 2fr;
+        @media (min-width: 320px) and (max-width: 1023px) {
+            height: initial;
+            grid-template-columns: 1fr;
+            grid-gap: 25px;
+            padding: 15px;
+            justify-items: center;
+        }
+        img {
+            @media (min-width: 320px) and (max-width: 767px) {
+                width: 200px;
+            }
+        }
         p {
             font-size: 16px;
             color: #777777;
             justify-self: end;
+            @media (min-width: 320px) and (max-width: 1023px) {
+                justify-self: center;
+                text-align: center;
+                font-size: 14px;
+            }
         }
     }
 }

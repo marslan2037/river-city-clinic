@@ -238,6 +238,9 @@ ul {
   .main-container .middle-section {
     position: relative;
     padding: 65px 0 100px; }
+    @media (min-width: 320px) and (max-width: 1023px) {
+      .main-container .middle-section {
+        padding: 20px; } }
     @media (min-width: 1024px) and (max-width: 1280px) {
       .main-container .middle-section {
         padding: 60px 50px; } }
@@ -250,6 +253,9 @@ ul {
       .main-container .middle-section .section-heading h2 {
         font-size: 36px;
         font-weight: 600; }
+        @media (min-width: 320px) and (max-width: 1023px) {
+          .main-container .middle-section .section-heading h2 {
+            font-size: 28px; } }
         @media (min-width: 1024px) and (max-width: 1280px) {
           .main-container .middle-section .section-heading h2 {
             font-size: 32px; } }
@@ -564,10 +570,20 @@ ul {
       color: #fff; }
     .main-container .reservation-section .section-heading {
       margin: 0 0 45px; }
+      @media (min-width: 320px) and (max-width: 1023px) {
+        .main-container .reservation-section .section-heading {
+          margin: 0 0 30px; } }
     .main-container .reservation-section .buttons-list {
       display: grid;
       grid-gap: 30px;
       grid-template-columns: 1fr 1fr; }
+      @media (min-width: 320px) and (max-width: 767px) {
+        .main-container .reservation-section .buttons-list {
+          grid-template-columns: 1fr; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .main-container .reservation-section .buttons-list {
+          grid-template-columns: 280px 280px;
+          justify-content: center; } }
       @media (min-width: 1024px) and (max-width: 1280px) {
         .main-container .reservation-section .buttons-list {
           grid-template-columns: 315px 315px;
@@ -577,6 +593,9 @@ ul {
         border: none;
         outline: none;
         cursor: pointer; }
+        @media (min-width: 320px) and (max-width: 1023px) {
+          .main-container .reservation-section .buttons-list button img {
+            width: 280px; } }
         @media (min-width: 1024px) and (max-width: 1280px) {
           .main-container .reservation-section .buttons-list button img {
             width: 100%; } }
@@ -645,6 +664,13 @@ ul {
     display: grid;
     grid-template-columns: 1fr 1.14fr;
     grid-template-rows: 822px; }
+    @media (min-width: 320px) and (max-width: 480px) {
+      .main-container .building-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: 280px 280px; } }
+    @media (min-width: 481px) and (max-width: 1023px) {
+      .main-container .building-section {
+        grid-template-rows: 380px; } }
     @media (min-width: 1024px) and (max-width: 1280px) {
       .main-container .building-section {
         grid-template-rows: 600px; } }
@@ -654,6 +680,9 @@ ul {
   .main-container .team-section {
     padding: 68px 0;
     background: #f6f6f6; }
+    @media (min-width: 320px) and (max-width: 1023px) {
+      .main-container .team-section {
+        padding: 20px; } }
     .main-container .team-section .inner-container {
       max-width: 970px;
       margin: 0 auto; }
@@ -668,6 +697,22 @@ ul {
         padding: 70px;
         border: 2px solid #43a5d9;
         border-radius: 16px; }
+        @media (min-width: 320px) and (max-width: 767px) {
+          .main-container .team-section .members-section .single-member {
+            grid-template-columns: 1fr;
+            grid-gap: 25px;
+            padding: 20px; } }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          .main-container .team-section .members-section .single-member {
+            grid-gap: 25px;
+            padding: 20px; } }
+        @media (min-width: 320px) and (max-width: 1023px) {
+          .main-container .team-section .members-section .single-member .img {
+            text-align: center; } }
+        @media (min-width: 320px) and (max-width: 1023px) {
+          .main-container .team-section .members-section .single-member .img img {
+            width: 100%;
+            max-width: 350px; } }
         .main-container .team-section .members-section .single-member ul li {
           font-size: 18px;
           line-height: 36px;
@@ -680,6 +725,9 @@ ul {
           font-size: 18px;
           line-height: 36px;
           color: #666666; }
+          @media (min-width: 320px) and (max-width: 1023px) {
+            .main-container .team-section .members-section .single-member p {
+              width: 100%; } }
           .main-container .team-section .members-section .single-member p span {
             font-size: 30px; }
   .main-container .vegitables-section {
@@ -785,6 +833,9 @@ ul {
   .main-container .faq-section {
     padding: 70px 0;
     background-color: #f6f6f6; }
+    @media (min-width: 320px) and (max-width: 1023px) {
+      .main-container .faq-section {
+        padding: 20px; } }
     @media (min-width: 1024px) and (max-width: 1280px) {
       .main-container .faq-section {
         padding: 60px; } }
@@ -795,12 +846,22 @@ ul {
       background-color: #fff;
       border-radius: 12px;
       padding: 75px; }
+      @media (min-width: 320px) and (max-width: 1023px) {
+        .main-container .faq-section .all-questions-section {
+          padding: 20px; } }
       .main-container .faq-section .all-questions-section .single-question {
         margin: 0 0 50px; }
+        @media (min-width: 320px) and (max-width: 1023px) {
+          .main-container .faq-section .all-questions-section .single-question {
+            margin: 0 0 25px; } }
         .main-container .faq-section .all-questions-section .single-question h2, .main-container .faq-section .all-questions-section .single-question p {
           font-size: 24px;
           line-height: 48px;
           text-align: left; }
+          @media (min-width: 320px) and (max-width: 1023px) {
+            .main-container .faq-section .all-questions-section .single-question h2, .main-container .faq-section .all-questions-section .single-question p {
+              font-size: 18px;
+              line-height: 36px; } }
         .main-container .faq-section .all-questions-section .single-question h2 {
           color: #666666; }
         .main-container .faq-section .all-questions-section .single-question p {
@@ -812,9 +873,24 @@ ul {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 2fr; }
+    @media (min-width: 320px) and (max-width: 1023px) {
+      .main-container footer {
+        height: initial;
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+        padding: 15px;
+        justify-items: center; } }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .main-container footer img {
+        width: 200px; } }
     .main-container footer p {
       font-size: 16px;
       color: #777777;
       justify-self: end; }
+      @media (min-width: 320px) and (max-width: 1023px) {
+        .main-container footer p {
+          justify-self: center;
+          text-align: center;
+          font-size: 14px; } }
 
 /*# sourceMappingURL=style.css.map */
