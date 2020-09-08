@@ -141,7 +141,7 @@ ul {
                 width: initial;
                 grid-gap: 50px;
             }
-            @media (min-width: 1024px) and (max-width: 1280px) {
+            @media (min-width: 1024px) and (max-width: 1800px) {
                 left: 25px;
                 grid-gap: 85px;
                 grid-template-columns: 1fr 1fr;
@@ -157,7 +157,7 @@ ul {
                 @media (min-width: 768px) and (max-width: 1023px) {
                     top: 30px;
                 }
-                @media (min-width: 1024px) and (max-width: 1280px) {
+                @media (min-width: 1024px) and (max-width: 1800px) {
                     top: 40px;
                 }
                 p {
@@ -177,7 +177,7 @@ ul {
                         line-height: 36px;
                         padding: 12px;
                     }
-                    @media (min-width: 1024px) and (max-width: 1280px) {
+                    @media (min-width: 1024px) and (max-width: 1800px) {
                         font-size: 22px;
                         padding-bottom: 15px;
                         line-height: 40px;
@@ -189,8 +189,9 @@ ul {
                     margin: 0 0 64px;
                     @media (min-width: 320px) and (max-width: 1023px) {
                         margin: 0 0 30px;
+                        text-align: center;
                     }
-                    @media (min-width: 1024px) and (max-width: 1280px) {
+                    @media (min-width: 1024px) and (max-width: 1800px) {
                         margin: 0 0 50px;
                     }
                     h3 {
@@ -203,7 +204,7 @@ ul {
                             line-height: 55px;
                             padding: 10px;
                         }
-                        @media (min-width: 1024px) and (max-width: 1280px) {
+                        @media (min-width: 1024px) and (max-width: 1800px) {
                             font-size: 58px;
                             line-height: 70px;
                         }
@@ -224,8 +225,9 @@ ul {
                             text-align: left;
                             padding: 0 10px;
                             position: initial;
+                            text-align: center;
                         }
-                        @media (min-width: 1024px) and (max-width: 1280px) {
+                        @media (min-width: 1024px) and (max-width: 1800px) {
                             font-size: 22px;
                             line-height: 41px;
                         }
@@ -258,7 +260,7 @@ ul {
                         font-size: 24px;
                         align-items: center;
                     }
-                    @media (min-width: 1024px) and (max-width: 1280px) {
+                    @media (min-width: 1024px) and (max-width: 1800px) {
                         width: 458px;
                         height: 70px;
                         font-size: 32px;
@@ -271,7 +273,7 @@ ul {
                         @media (min-width: 320px) and (max-width: 1023px) {
                             display: none;
                         }
-                        @media (min-width: 1024px) and (max-width: 1280px) {
+                        @media (min-width: 1024px) and (max-width: 1800px) {
                             right: 25px;
                         }
                     }
@@ -324,6 +326,7 @@ ul {
                         padding: 10px;
                         font-size: 50px;
                         line-height: 75px;
+                        text-align: center;
                     }
                     @media (min-width: 1024px) and (max-width: 1280px) {
                         font-size: 58px;
@@ -344,6 +347,7 @@ ul {
                     margin: 0 0 22px;
                     @media (min-width: 320px) and (max-width: 1023px) {
                         padding: 0 10px;
+                        text-align: center;
                     }
                     h3.have-white-bg {
                         font-size: 99px;
@@ -579,8 +583,8 @@ ul {
                     margin-right: 0;
                 }
                 @media(min-width:768PX) and (max-width:1023px){
-                    width: 350px;
-                    margin-right: 0;
+                    width: 80%;
+                    margin: 0 auto;
                 }
                 @media (min-width: 1024px) and (max-width: 1280px) {
                     width: 650px;
@@ -1136,6 +1140,10 @@ ul {
         }
         .map-box {
             background: #e8e8e8;
+            iframe {
+                width: 100% !important;
+                height: 100% !important;
+            }
         }
     }
 
@@ -1300,8 +1308,8 @@ ul {
             grid-template-rows: auto;
         }
         @media (min-width: 1024px) and (max-width: 1280px) {
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: auto;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 470px;
         }
         .therapy-detail {
             padding: 0 120px;
@@ -1333,6 +1341,7 @@ ul {
             @media (min-width: 1024px) and (max-width: 1280px) {
                 font-size: 60px;
                 text-align: center;
+                margin: 0 0 15px;
             }
         }
         .grid-box {
@@ -1351,7 +1360,7 @@ ul {
                 margin: auto;
             }
             @media (min-width: 1024px) and (max-width: 1280px) {
-                width: 472px;
+                width: 410px;
             }
             p {
                 font-size: 18px;
@@ -1393,13 +1402,19 @@ ul {
         .t-white-box.margin-45 {
             margin: 0 0 45px;
             @media(min-width:320PX) and (max-width:1023px){
-            margin: 0 auto 20px;
+                margin: 0 auto 20px;
+            }
+            @media(min-width: 1024px) and (max-width: 1280px){
+                margin: 0 0 15px;
             }
         }
         .t-white-box.margin-55 {
             margin: 0 0 55px;
             @media(min-width:320PX) and (max-width:1023px){
                 margin: 0 auto 20px;
+            }
+            @media(min-width: 1024px) and (max-width: 1280px){
+                margin: 0 0 30px;
             }
         }
     }
