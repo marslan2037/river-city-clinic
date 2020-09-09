@@ -1309,7 +1309,7 @@ ul {
         padding: 0;
         display: grid;
         grid-template-columns: 766px 1fr;
-        grid-template-rows: auto;
+        grid-template-rows: 700;
         @media(min-width:320px) and (max-width:1023px){
             grid-template-columns: 1fr;
             grid-template-rows: auto;
@@ -1338,7 +1338,7 @@ ul {
             color: white;
             font-size: 80px;
             line-height: 80px;
-            margin: 0 0 100px;
+            margin: 0 0 135px;
             @media(min-width:320PX) and (max-width:1023px){
                 font-size: 40px;
                 line-height: 80px;
