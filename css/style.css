@@ -46,12 +46,12 @@ ul {
 .main-container {
   max-width: 1920px;
   margin: 0 auto; }
+  .main-container .inner-container {
+    max-width: 1000px;
+    margin: 0 auto; }
   .main-container header {
     padding: 0 16px;
-    height: 151px;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 2fr; }
+    height: 151px; }
     @media (min-width: 320px) and (max-width: 767px) {
       .main-container header {
         grid-template-columns: 1fr;
@@ -59,15 +59,29 @@ ul {
         grid-gap: 25px;
         padding: 16px;
         height: initial; } }
-    @media (min-width: 320px) and (max-width: 767px) {
-      .main-container header .logo {
-        width: 225px; } }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      .main-container header .logo {
-        width: 220px; } }
-    @media (min-width: 1024px) and (max-width: 1280px) {
-      .main-container header .logo {
-        width: 280px; } }
+    .main-container header .inner-container {
+      height: inherit;
+      display: grid;
+      align-items: center;
+      grid-template-columns: 1fr 2fr; }
+      @media (min-width: 320px) and (max-width: 767px) {
+        .main-container header .inner-container {
+          grid-template-columns: 1fr;
+          justify-items: center;
+          grid-gap: 25px; } }
+    .main-container header .logo {
+      cursor: pointer; }
+      .main-container header .logo:hover {
+        opacity: 0.6; }
+      @media (min-width: 320px) and (max-width: 767px) {
+        .main-container header .logo {
+          width: 225px; } }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .main-container header .logo {
+          width: 220px; } }
+      @media (min-width: 1024px) and (max-width: 1280px) {
+        .main-container header .logo {
+          width: 280px; } }
     .main-container header .header-buttons {
       display: grid;
       grid-gap: 31px;
@@ -349,7 +363,6 @@ ul {
       .main-container .middle-section {
         padding: 60px 50px; } }
     .main-container .middle-section .inner-container {
-      max-width: 1168px;
       margin: 0 auto; }
     .main-container .middle-section .section-heading {
       position: relative;
@@ -399,8 +412,6 @@ ul {
     @media (min-width: 1024px) and (max-width: 1280px) {
       .main-container .surprising-effect-section {
         padding: 65px 50px; } }
-    .main-container .surprising-effect-section .inner-container {
-      max-width: 1174px; }
     .main-container .surprising-effect-section .section-heading {
       margin: 0 0 75px; }
       @media (min-width: 320px) and (max-width: 1023px) {
@@ -493,8 +504,6 @@ ul {
         @media (min-width: 320PX) and (max-width: 1023px) {
           .main-container .body-features-section .section-heading h2 {
             font-size: 23px; } }
-    .main-container .body-features-section .inner-container {
-      max-width: 1210px; }
     .main-container .body-features-section .bfs-content {
       display: grid;
       grid-template-columns: 1fr 2fr;
@@ -549,8 +558,6 @@ ul {
     @media (min-width: 1024px) and (max-width: 1280px) {
       .main-container .nmn-effects-section {
         padding-bottom: 30px; } }
-    .main-container .nmn-effects-section .inner-container {
-      max-width: 1580px; }
     .main-container .nmn-effects-section .section-heading {
       margin: 0 0 75px; }
       @media (min-width: 320px) and (max-width: 767px) {
@@ -687,8 +694,6 @@ ul {
     @media (min-width: 1024px) and (max-width: 1280px) {
       .main-container .patients-impression-section {
         padding: 60px; } }
-    .main-container .patients-impression-section .inner-container {
-      max-width: 1171px; }
     .main-container .patients-impression-section .section-heading {
       margin: 0 0 40px; }
       @media (min-width: 320PX) and (max-width: 1023px) {
@@ -790,8 +795,6 @@ ul {
   .main-container .section-with-img.aging-section {
     background: url(../images/aging-section-bg.png) no-repeat;
     background-size: cover; }
-    .main-container .section-with-img.aging-section .inner-container {
-      max-width: 1046px; }
   .main-container .longevity-section {
     background: url(../images/longivity-bg.png) no-repeat;
     background-position: bottom right;
@@ -799,8 +802,6 @@ ul {
     @media (min-width: 320PX) and (max-width: 1023px) {
       .main-container .longevity-section {
         padding: 20px; } }
-    .main-container .longevity-section .inner-container {
-      max-width: 1162px; }
     .main-container .longevity-section p {
       margin: 0 0 10px; }
     .main-container .longevity-section .chart-img {
@@ -854,8 +855,6 @@ ul {
           width: 450px; } }
   .main-container .reservation-section {
     background-color: #43a5d9; }
-    .main-container .reservation-section .inner-container {
-      max-width: 850px; }
     .main-container .reservation-section h2 {
       color: #fff; }
     .main-container .reservation-section .section-heading {
@@ -1006,7 +1005,6 @@ ul {
       .main-container .team-section {
         padding: 20px; } }
     .main-container .team-section .inner-container {
-      max-width: 970px;
       margin: 0 auto; }
     .main-container .team-section .members-section {
       display: grid;
@@ -1288,7 +1286,6 @@ ul {
       .main-container .faq-section {
         padding: 60px; } }
     .main-container .faq-section .inner-container {
-      max-width: 1323px;
       margin: 0 auto; }
     .main-container .faq-section .all-questions-section {
       background-color: #fff;
@@ -1317,17 +1314,21 @@ ul {
   .main-container footer {
     height: 113px;
     background-color: #fff;
-    padding: 0 15px;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 2fr; }
+    padding: 0 15px; }
     @media (min-width: 320px) and (max-width: 1023px) {
       .main-container footer {
         height: initial;
-        grid-template-columns: 1fr;
-        grid-gap: 25px;
-        padding: 15px;
-        justify-items: center; } }
+        padding: 15px; } }
+    .main-container footer .inner-container {
+      height: inherit;
+      display: grid;
+      align-items: center;
+      grid-template-columns: 1fr 2fr; }
+      @media (min-width: 320px) and (max-width: 1023px) {
+        .main-container footer .inner-container {
+          grid-template-columns: 1fr;
+          grid-gap: 25px;
+          justify-items: center; } }
     @media (min-width: 320px) and (max-width: 767px) {
       .main-container footer img {
         width: 200px; } }
